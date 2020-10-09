@@ -1,0 +1,3 @@
+<?php
+//000000000000a:16:{s:9:"site_name";s:8:"Fil Game";s:4:"logo";s:61:"/uploads/images/20200928/5eeed8308c0885a4a9faba7bff9fc466.png";s:4:"file";s:0:"";s:3:"icp";s:22:"苏ICP备xxxxxxxxxx号";s:4:"copy";s:51:"Copyright © 1998 - 2020 Xxxx. All Rights Reserved.";s:15:"site_statistice";s:0:"";s:9:"head_html";s:0:"";s:11:"site_status";s:1:"0";s:17:"site_closedreason";s:0:"";s:12:"search_model";s:0:"";s:6:"editor";s:8:"umeditor";s:11:"wap_enabled";s:1:"1";s:13:"company_email";s:13:"xxxxx@163.com";s:11:"company_tel";s:13:"0166-66668888";s:8:"wap_jump";s:1:"0";s:10:"wap_domain";s:0:"";}
+?>

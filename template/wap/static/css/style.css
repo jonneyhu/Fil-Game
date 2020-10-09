@@ -1,0 +1,136 @@
+/* 头部 */
+.header{height: 50px;line-height: 50px;overflow: hidden;background: #04072d}
+.header .logo{height: 50px;position: absolute;left:0;top:0;}
+.header .logo img{position: absolute;top:10px;height: 30px;}
+.header .menu_btn{height: 50px;position: absolute;right:0;top:0;}
+.header .menu_btn img{position: absolute;top:16px;height: 18px;right:0;}
+.header_container{position: fixed;left:0;top:0;width:100%;z-index: 99;background:#04072d;height: 50px;line-height: 50px;}
+.header_container_hide{top:-51px;}
+/* 底部 */
+.footer{background: #313131;}
+.footer_nav{padding: 18px 0;border-bottom: 1px solid #666666;}
+.footer_nav li{display: inline-block;padding-right: 15px;line-height: 30px;color:#999;font-size: 12px;}
+.footer .copy{line-height: 28px;color:#999;font-size: 10px;text-align: center;padding:15px 0;}
+.footer .copy a{color:#999;}
+.to_top_btn {display: none;position: fixed;bottom: 62px;right: 9px;width: 38px;height: 38px;background-size: 38px 38px;background-repeat: no-repeat;background-position: 50%;z-index: 20;
+    background-image: url(../images/to_top.png);
+}
+/* 导航 */
+.nav_container_mask{position: fixed;z-index: 9998;background: rgba(0,0,0,0.4);width:100%;height: 100%;top:0;left:-750px;max-width: 750px;-webkit-overflow-scrolling: touch;overflow: scroll;}
+.nav_container{position: relative;z-index: 9999;width:100%;top:0;left:-210px;color:#fff;min-height: 100%;}
+.nav_container_mask.show{display: block;left:0;}
+.nav_container.show{left:0;}
+.nav_container ul{text-align: center;padding-bottom: 30px;width:200px;background: rgba(0,0,0,0.8);min-height: 100%;}
+.nav_container ul .nav_logo{width:100px;margin:0 auto;padding:25px 0 10px 0;display: inline-block;}
+.nav_container ul li{height: 42px;line-height: 42px;font-size: 16px;text-align: center;color:#fff;}
+.nav_container ul .on{background: #0056FF;}
+
+.list_more{width:80%;height: 36px;display: block;margin:0 auto;background: #0056FF;position: relative;z-index: 3;cursor: pointer;text-align: center;border-radius: 36px;margin:15px auto;}
+.list_more span{display: inline-block;height: 36px;line-height: 36px;font-size:12px;color:#fff}
+.list_more .loading{background: url(../images/loading-2.gif) no-repeat left center;background-size:20px;padding-left:30px;}
+
+
+*{box-sizing: border-box;}
+
+.mobile-game-matrix .data-bar {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 1.01333333rem;
+    margin-bottom:1.06666667rem
+}
+.mobile-game-matrix .data-bar .data-bar-item {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center
+}
+.mobile-game-matrix .data-bar .data-bar-item__title {
+    font-size:.32rem;
+    font-family:SourceHanSansCN-Regular,SourceHanSansCN;
+    font-weight:400;
+    color:#999;
+    line-height:.32rem;
+    margin-bottom:.16rem
+}
+.mobile-game-matrix .data-bar .data-bar-item__value {
+    font-size:.64rem;
+    font-family:PingFangSC-Semibold,PingFang SC;
+    font-weight:600;
+    color:#333;
+    line-height:.85333333rem
+}
+.mobile-game-matrix .data-bar .data-bar-item__value:after {
+    content:"+";
+    position:relative;
+    top:-.05333333rem
+}
+
+.mobile-game-matrix .game-list {
+    padding-left:.64rem;
+    padding-right:.64rem
+}
+.mobile-game-matrix .game-list .game-list-item {
+    position:relative;
+    margin-bottom:.64rem;
+    padding-top:66%;
+    overflow:hidden;
+    border-radius:.21333333rem;
+    z-index:0
+}
+.mobile-game-matrix .game-list .game-list-item .game-content {
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    z-index:1;
+    height:2.82666667rem;
+    padding:.53333333rem .45333333rem 0;
+    background:linear-gradient(180deg,transparent,rgba(0,0,0,.77));
+    display:flex;
+    align-items:center
+}
+.mobile-game-matrix .game-list .game-list-item .game-content .game-icon {
+    width:1.38666667rem;
+    height:1.38666667rem;
+    border-radius:.21333333rem;
+    margin-right:.42666667rem
+}
+.mobile-game-matrix .game-list .game-list-item .game-content .game-name-downloadnum {
+    flex:1;
+    display:flex;
+    flex-direction:column
+}
+.mobile-game-matrix .game-list .game-list-item .game-content .game-name-downloadnum .game-name {
+    font-size:.48rem;
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:500;
+    color:#fff;
+    line-height:.53333333rem;
+    margin-bottom:.21333333rem
+}
+.mobile-game-matrix .game-list .game-list-item .game-content .game-name-downloadnum .game-downloadnum {
+    font-size:.37333333rem;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:#fff;
+    line-height:.37333333rem
+}
+.mobile-game-matrix .game-list .game-list-item .game-content .game-download-btn {
+    background:#ffca00;
+    border-radius:.16rem;
+    padding:.26666667rem .37333333rem;
+    font-size:.37333333rem;
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:500;
+    color:#000;
+    line-height:.37333333rem
+}
+@keyframes icon-moving {
+    0% {
+        margin-left:0
+    }
+    to {
+        margin-left:-50%
+    }
+}
